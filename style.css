@@ -1,0 +1,155 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 350px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border: 2px solid black;
+    box-shadow:  -1em 0 .4em red ;
+}
+
+.box{
+     border: 1px solid black;
+   
+}
+
+#box-1{
+    grid-column: span 4;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: end;
+    height: 80px;
+}
+
+#box-2{
+    grid-column: span 2;
+
+}
+
+#box-17  {
+    grid-column: span 3;
+
+}
+
+#box-11, #box-12, #box-13, #box-14, #box-15, #box-16,
+#box-17, #box-18, #box-2, #box-3 ,#box-4,#box-5,#box-6,#box-7,
+#box-8,#box-9,#box-10 {
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 11px;
+}
+
+#box-11, #box-12, #box-13, #box-14, #box-15, #box-16,
+#box-17, #box-18, #box-2, #box-3 ,#box-4,#box-5,#box-6,#box-7,
+#box-8,#box-9,#box-10 {
+    height: 55px ;
+}
+
+#box-3 , #box-4 , #box-8 , #box-12 , #box-16 , #box-18 , #box-2 {
+    background-color: blanchedalmond;
+}
+
+.locator{
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    padding-top: 180px;
+    padding-left: 500px;
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.span-3 {
+    grid-column: span 3;
+}
+
+.container {
+    max-width: 280px;
+    margin: 60px auto;
+    padding-top: 50px;
+}
+
+.info {
+    display: none;
+    text-align: center;
+    
+}
+
+.mover{
+    padding-left: 40%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.number-input {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    font-size: 3rem;
+    text-align: end;
+    border: none;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.button {
+    background-color: #ccc;
+    border: 1px solid black;
+    padding-block: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    height: 55px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.orange {
+    background-color: rgb(240, 184, 0);
+}
+
+p{
+    text-align: center;
+    border: 2px solid black;
+    width: 280px;
+    /* background-color: rgb(240, 184, 0); */
+    background-color: #ccc;
+}
+
+p:hover{
+    background-color: white;
+}
